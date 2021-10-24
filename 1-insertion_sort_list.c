@@ -11,6 +11,16 @@
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *c_outer = *list;
+	listint_t *copy = *list;
+	int c = 0;
+
+	while (copy != NULL)
+	{
+		copy = copy->next;
+		c++;
+	}
+	if (c < 2)
+		return;
 	while (c_outer->next != NULL)
 	{
 		if (c_outer->n > c_outer->next->n)
