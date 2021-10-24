@@ -3,7 +3,7 @@
 #include "sort.h"
 
 /**
- * buble_sort - implement bubble sort algorithm
+ * bubble_sort - implement bubble sort algorithm
  * @array: array of integers
  * @size: element size of array
  */
