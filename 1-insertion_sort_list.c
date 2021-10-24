@@ -12,7 +12,6 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *c_outer = *list;
 	listint_t *copy = *list;
-	int c = 0;
 
 	if (list == NULL || *list == NULL)
 		return;
