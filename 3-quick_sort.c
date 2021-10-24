@@ -7,6 +7,7 @@
  * @hi: highter value for end
  * @size: array element size
  * Return: int index pivot
+ */
 int partition(int *array, int lo, int hi, size_t size)
 {
 	int pivot = array[hi];
